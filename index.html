@@ -1,27 +1,105 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Don't Stop Learning</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header class="startup text-center text-white d-flex">
-	<div class="container my-auto">
-		<div class="row">
-				<div class="col-lg-12 my-auto">
-					<h1 class="text-uppercase"><strong> DON'T STOP LEARNING </strong></h1>
-				<hr>
-				</div>
-			<div class="col-lg-12 my-auto">
-				<button class="btn btn-primary btn-xl"> KEEP CODING </button>
-			</div>
-		</div>
-	</div>
-</header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <!-- Superslides CSS -->
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="headerMsg col-md-12 text-center">
+      Hello Ms. Pauline, You're the first user to see Mark's Website. Thanks for visiting.
+    </div>
+
+    <div class="overlay"></div>
+
+    <div id="slides">
+      <div class="slides-container">
+        <img src="img/1.jpg" alt="Image1">
+        <img src="img/2.jpg" alt="Image2">
+        <img src="img/3.jpg" alt="Image3">
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Hi! I'm Mark Vincent Guevarra</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <div id="about_mark" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img id="aboutImg" src="img/about/about_img.jpg" alt="Mark Vincent Guevarra">
+          </div>
+          <div class="col-md-7">
+            <h1>About Me</h1>
+            <p>Hi! My Name is Mark Vincent Guevarra from Salapungan, Candaba, Pampanga.
+            I studied Information Technolgy Major in Web Development at Baliuag University. 
+            I have experience on using this languages such as HTML, CSS, Javascript/Jquery, AJAX, PHP and MySQL. </p>
+            <p>And Im Handsome! :)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="technical_skills_ni_mark" class="skills_section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2> TECHNICAL SKILLS </h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+            <div class="owl-carousel owl-theme">
+              <div class="skill">
+                <span class="chart" data-percent="73"></span>
+                  <span class="percent">73</span>
+                  <canvas height="152" width="152"></canvas>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Superslides.js -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!-- Typed.js -->
+    <script src="js/typed.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Easy Pie Chart.js -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Main.js -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
