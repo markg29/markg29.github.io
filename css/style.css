@@ -35,6 +35,7 @@ body{
 }
 
 .titleMessage {
+	font-family: 'Playfair Display', serif;
 	position: absolute;
     width: 100%;
     height: 250px;
@@ -55,8 +56,13 @@ body{
 	font-size: 60px;
 }
 
+.titleMessage .heading .main .full_name{
+	color: #ED4C67;
+}
+
 .titleMessage .heading .sub {
-	font-size: 23px;
+	font-size: 30px;
+	color: #ED4C67;
 }
 
 .section {
@@ -107,4 +113,56 @@ body{
 	content: '%';
 }
 
+.square {
+	margin-top: 30px;
+	position: relative;
+}
 
+.square_container {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.square_container:before,
+.square_container:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+.square_container:before {
+	right: 0px;
+}
+
+.square_container:after {
+	left: 0px
+}
+
+.square_content h2 {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	color: #e74c3c;
+}
+
+.square_content h3 {
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.square_icon {
+	position: absolute;
+	left: 50%;
+	top: -30px;
+	width: 40%;
+	height: 60px;
+	font-size: 45px;
+	margin-left: -20%;
+	color: #444;
+}

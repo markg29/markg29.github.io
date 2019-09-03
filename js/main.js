@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	var typed = new Typed(".typed", {
-	  strings: ["Web Developer.", "Student."],
+	  strings: ["Full Stack Web Developer.", "Student at Baliuag University."],
 	  showCursor: false,
 	  loop: true,
 	  typeSpeed: 70,
@@ -35,6 +35,8 @@ $( document ).ready(function() {
  
 
     var skills_TopOffset = $(".skills_section").offset().top; // Get the top offset of the current window position
+    var stats_TopOffset = $(".stats_section").offset().top;
+    var countUpFinished = false;
 
     $(window).scroll(function(){
     	if(window.pageYOffset > skills_TopOffset - $(window).height() + 200) {
@@ -50,5 +52,21 @@ $( document ).ready(function() {
 		        }
 		    });
     	}
-    })
+
+    	if(!countUpFinished && window.pageYOffset > stats_TopOffset - $(window).height() + 200){
+	    		$('.counter').each(function(){
+	    		var el = $(this);
+	    		var endValue = parseInt(el.text());
+
+	    		el.countup(endValue);
+	    	});
+	    		countUpFinished = true;
+    	}
+
+    });
+
+    
+
+
+
 });
