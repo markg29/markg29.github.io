@@ -79,18 +79,6 @@ body{
 	color: #fff;
 }
 
-.headermsg_section {
-	background-color: #2d3436;
-	color: #fff;
-	padding: 30px 5px;
-}
-
-.headermsg_section p {
-	margin: 0;
-}
-
-
-
 .skill {
 	text-align: center;
 	margin-left: 10px;
@@ -334,4 +322,30 @@ body{
 
 .copyright_section p {
 	margin: 0;
+}
+
+#navigation {
+	background-color: #2d3436;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+#navbar-toggler {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+	background-color: #fff;
 }
