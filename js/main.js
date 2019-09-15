@@ -16,7 +16,7 @@ $(window).on("load", function(){
 $( document ).ready(function() {
 
 	var typed = new Typed(".typed", {
-	  strings: ["Full Stack Web Developer.", "Student at Baliuag University."],
+	  strings: ["Web Developer.", "Student at Baliuag University."],
 	  showCursor: false,
 	  loop: true,
 	  typeSpeed: 70,
